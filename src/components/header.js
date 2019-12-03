@@ -7,7 +7,7 @@ const Header = () =>{
         <header className={styles.header}>
             <nav>
                 <Link className={styles.siteLogo} to="/">
-                    <span>PN</span>
+                    <span>P</span>
                 </Link>
                 <ul className={styles.navRight}>
                     <li>

@@ -1,8 +1,13 @@
 import React from 'react';
+import Head from '../components/head';
+import Layout from '../components/layout';
 
 const ContactPage = () => {
     return (
-        <div>Contact</div>
+        <Layout>
+            <Head title="Contact"/>
+            <h1>Contact me</h1>
+        </Layout>
     );
 }
 
